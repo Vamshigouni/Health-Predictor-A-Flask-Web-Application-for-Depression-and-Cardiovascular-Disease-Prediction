@@ -37,15 +37,25 @@ The prediction models are trained using datasets from **Kaggle**:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/health-predictor.git
+    git clone https://github.com/Vamshigouni/health-predictor.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd health-predictor
+    cd Health-Predictor-A-Flask-Web-Application-for-Depression-and-Cardiovascular-Disease-Prediction
     ```
 3. Install the required dependencies:
+    - Ensure that the following packages are installed in your environment:
+      - Flask
+      - pandas
+      - numpy
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - pickle
+
+    - You can install these packages individually using:
     ```bash
-    pip install -r requirements.txt
+    pip install Flask pandas numpy scikit-learn matplotlib seaborn pickle
     ```
 4. Download the necessary datasets from Kaggle and update the dataset paths in `depression.py` and `cardio.py` files:
     - [Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
@@ -53,13 +63,13 @@ The prediction models are trained using datasets from **Kaggle**:
 
 ### Running the Application
 
-1. Run the **depression model**:
+1. Run the **Depression Code.py**:
     ```bash
     python depression.py
     ```
     This will generate accuracy, precision, recall, and F1 score metrics.
 
-2. Run the **cardiovascular model**:
+2. Run the **Cardio-Vascular Code.py**:
     ```bash
     python cardio.py
     ```
@@ -69,7 +79,7 @@ The prediction models are trained using datasets from **Kaggle**:
     ```bash
     python app.py
     ```
-    Open the generated URL (e.g., `http://127.0.0.1:5000/`) in a web browser to access the application.
+    Open the generated URL in a web browser to access the application.
 
 ### Application Workflow
 
