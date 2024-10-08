@@ -65,13 +65,13 @@ The prediction models are trained using datasets from **Kaggle**:
 
 1. Run the **Depression Code.py**:
     ```bash
-    python depression.py
+    python Depression Code.py
     ```
     This will generate accuracy, precision, recall, and F1 score metrics.
 
 2. Run the **Cardio-Vascular Code.py**:
     ```bash
-    python cardio.py
+    python Cardio-Vascular Code.py
     ```
     The output will include similar metrics and save the model using the Pickle library.
 
